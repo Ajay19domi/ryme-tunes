@@ -1,0 +1,237 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "playing  rhymes.",
+          "examplePhrases": [
+            "Alexa start rhyme tunes",
+            "play twinkle twinkle rhyme"
+          ],
+          "keywords": [
+            "Rhyme",
+            "Tunes",
+            "game",
+            "poem",
+            "poem",
+            "game",
+            "rhymes",
+            "rhyme",
+            "game",
+            "grammar",
+            "rhymes",
+            "Tunes",
+            "skill",
+            "skills",
+            "knowledge",
+            "learning",
+            "skill"
+          ],
+          "name": "Rhyme Tunes",
+          "description": "Rhymes Zone is an Alexa skill which is created for user to learn and understand the rhymes line by line. In line with our aim to expose user to various poems or rhymes we had made in this skill. In this project we have set total 50 number of rhymes set. In which when a user will say first line of poem then Alexa will say second line of poem and this happens one by one until the poem ends. If the user does mistakes while saying the rhyme then the Alexa will tell the user that the line said by you is wrong and also it will correct the line of the rhyme. It is very good skill for the user because in this skill we have added so many poems that the user will feel interesting while learning the poems and they will have fun while learning .If a user want to listen rhyme then invoke Alexa by saying rhyme tunes then Alexa will ask that which rhyme do you want to sing or play, and then Alexa will tell the first line of the rhyme and user should say the next line of the rhyme. If you want to understand more about the game just say \"help\" after waking up the skill name. Enjoy the game...",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "updatesDescription": "The Rhymes we have:-\n-Twinkle Twinkle\n-Humpty Dumpty\n-Black Sheep\n-Little Teapot\n-Diddle Diddle\n-Incy Wincy Spider\n-Jack and Jill\n-Teddy Bea\n-ringa ringa\n-Dear Mother\n-Purple Cow\n-Easter\n-Papermint\n-Christmas\n-Old Man\n-Old Mother\n-Hot cross\n-Zoo\n-Diamonds\n-Little Girl\n-Zoom Zoom Rhyme\n-Chubby Cheeks\n-The Lion And The Unicorn\n-Clap Your Hands\n-Buckle My Shoe\n-Once I Caught A Fish Alive\n-Ding Dong\n-Tommy Tucker\n-Star Light Star Bright\n-Tisket Tasket\n-Wise Old Owl\n-A Rose\n-Action\n-After a Bath\n-All the little fishes\n-An Elephant\n-Are You Sleeping\n-Birds\n-Paper\n-Animal Sounds\n-Butterfly\n-Johny\n-I Am Big Tree\n-I Am Big Tree\n-Hickory Dickory\n-Good Morning\n-Good Afternoon\n-Evening Red\n-Early To Bed and Early To Rise\n-Donkey\n-Charley",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        },
+        "en-CA": {
+          "summary": "playing  rhymes.",
+          "examplePhrases": [
+            "Alexa start rhyme tunes",
+            "play twinkle twinkle rhyme"
+          ],
+          "keywords": [
+            "Rhyme",
+            "Tunes",
+            "game",
+            "poem",
+            "poem",
+            "game",
+            "rhymes",
+            "rhyme",
+            "game",
+            "grammar",
+            "rhymes",
+            "Tunes",
+            "skill",
+            "skills",
+            "knowledge",
+            "learning",
+            "skill"
+          ],
+          "name": "Rhyme Tunes",
+          "description": "Rhymes Zone is an Alexa skill which is created for user to learn and understand the rhymes line by line. In line with our aim to expose user to various poems or rhymes we had made in this skill. In this project we have set total 50 number of rhymes set. In which when a user will say first line of poem then Alexa will say second line of poem and this happens one by one until the poem ends. If the user does mistakes while saying the rhyme then the Alexa will tell the user that the line said by you is wrong and also it will correct the line of the rhyme. It is very good skill for the user because in this skill we have added so many poems that the user will feel interesting while learning the poems and they will have fun while learning .If a user want to listen rhyme then invoke Alexa by saying rhyme tunes then Alexa will ask that which rhyme do you want to sing or play, and then Alexa will tell the first line of the rhyme and user should say the next line of the rhyme. If you want to understand more about the game just say \"help\" after waking up the skill name. Enjoy the game...",
+          "smallIconUri": "file://assets/images/en-CA_smallIconUri.png",
+          "updatesDescription": "The Rhymes we have:-\n-Twinkle Twinkle\n-Humpty Dumpty\n-Black Sheep\n-Little Teapot\n-Diddle Diddle\n-Incy Wincy Spider\n-Jack and Jill\n-Teddy Bea\n-ringa ringa\n-Dear Mother\n-Purple Cow\n-Easter\n-Papermint\n-Christmas\n-Old Man\n-Old Mother\n-Hot cross\n-Zoo\n-Diamonds\n-Little Girl\n-Zoom Zoom Rhyme\n-Chubby Cheeks\n-The Lion And The Unicorn\n-Clap Your Hands\n-Buckle My Shoe\n-Once I Caught A Fish Alive\n-Ding Dong\n-Tommy Tucker\n-Star Light Star Bright\n-Tisket Tasket\n-Wise Old Owl\n-A Rose\n-Action\n-After a Bath\n-All the little fishes\n-An Elephant\n-Are You Sleeping\n-Birds\n-Paper\n-Animal Sounds\n-Butterfly\n-Johny\n-I Am Big Tree\n-I Am Big Tree\n-Hickory Dickory\n-Good Morning\n-Good Afternoon\n-Evening Red\n-Early To Bed and Early To Rise\n-Donkey\n-Charley",
+          "largeIconUri": "file://assets/images/en-CA_largeIconUri.png"
+        },
+        "en-IN": {
+          "summary": "playing  rhymes.",
+          "examplePhrases": [
+            "Alexa start rhyme tunes",
+            "play twinkle twinkle rhyme",
+            ""
+          ],
+          "keywords": [
+            "Rhyme",
+            "Tunes",
+            "game",
+            "poem",
+            "poem",
+            "game",
+            "rhymes",
+            "rhyme",
+            "game",
+            "grammar",
+            "rhymes",
+            "Tunes",
+            "skill",
+            "skills",
+            "knowledge",
+            "learning",
+            "skill"
+          ],
+          "name": "Rhyme Tunes",
+          "description": "Rhymes Zone is an Alexa skill which is created for user to learn and understand the rhymes line by line. In line with our aim to expose user to various poems or rhymes we had made in this skill. In this project we have set total 50 number of rhymes set. In which when a user will say first line of poem then Alexa will say second line of poem and this happens one by one until the poem ends. If the user does mistakes while saying the rhyme then the Alexa will tell the user that the line said by you is wrong and also it will correct the line of the rhyme. It is very good skill for the user because in this skill we have added so many poems that the user will feel interesting while learning the poems and they will have fun while learning .If a user want to listen rhyme then invoke Alexa by saying rhyme tunes then Alexa will ask that which rhyme do you want to sing or play, and then Alexa will tell the first line of the rhyme and user should say the next line of the rhyme. If you want to understand more about the game just say \"help\" after waking up the skill name. Enjoy the game...",
+          "smallIconUri": "file://assets/images/en-IN_smallIconUri.png",
+          "updatesDescription": "The Rhymes we have:-\n-Twinkle Twinkle\n-Humpty Dumpty\n-Black Sheep\n-Little Teapot\n-Diddle Diddle\n-Incy Wincy Spider\n-Jack and Jill\n-Teddy Bea\n-ringa ringa\n-Dear Mother\n-Purple Cow\n-Easter\n-Papermint\n-Christmas\n-Old Man\n-Old Mother\n-Hot cross\n-Zoo\n-Diamonds\n-Little Girl\n-Zoom Zoom Rhyme\n-Chubby Cheeks\n-The Lion And The Unicorn\n-Clap Your Hands\n-Buckle My Shoe\n-Once I Caught A Fish Alive\n-Ding Dong\n-Tommy Tucker\n-Star Light Star Bright\n-Tisket Tasket\n-Wise Old Owl\n-A Rose\n-Action\n-After a Bath\n-All the little fishes\n-An Elephant\n-Are You Sleeping\n-Birds\n-Paper\n-Animal Sounds\n-Butterfly\n-Johny\n-I Am Big Tree\n-I Am Big Tree\n-Hickory Dickory\n-Good Morning\n-Good Afternoon\n-Evening Red\n-Early To Bed and Early To Rise\n-Donkey\n-Charley",
+          "largeIconUri": "file://assets/images/en-IN_largeIconUri.png"
+        },
+        "en-AU": {
+          "summary": "playing  rhymes.",
+          "examplePhrases": [
+            "Alexa start rhyme tunes",
+            "play twinkle twinkle rhyme"
+          ],
+          "keywords": [
+            "Rhyme",
+            "Tunes",
+            "game",
+            "poem",
+            "poem",
+            "game",
+            "rhymes",
+            "rhyme",
+            "game",
+            "grammar",
+            "rhymes",
+            "Tunes",
+            "skill",
+            "skills",
+            "knowledge",
+            "learning",
+            "skill"
+          ],
+          "name": "Rhyme Tunes",
+          "description": "Rhymes Zone is an Alexa skill which is created for user to learn and understand the rhymes line by line. In line with our aim to expose user to various poems or rhymes we had made in this skill. In this project we have set total 50 number of rhymes set. In which when a user will say first line of poem then Alexa will say second line of poem and this happens one by one until the poem ends. If the user does mistakes while saying the rhyme then the Alexa will tell the user that the line said by you is wrong and also it will correct the line of the rhyme. It is very good skill for the user because in this skill we have added so many poems that the user will feel interesting while learning the poems and they will have fun while learning .If a user want to listen rhyme then invoke Alexa by saying rhyme tunes then Alexa will ask that which rhyme do you want to sing or play, and then Alexa will tell the first line of the rhyme and user should say the next line of the rhyme. If you want to understand more about the game just say \"help\" after waking up the skill name. Enjoy the game...",
+          "smallIconUri": "file://assets/images/en-AU_smallIconUri.png",
+          "updatesDescription": "The Rhymes we have:-\n-Twinkle Twinkle\n-Humpty Dumpty\n-Black Sheep\n-Little Teapot\n-Diddle Diddle\n-Incy Wincy Spider\n-Jack and Jill\n-Teddy Bea\n-ringa ringa\n-Dear Mother\n-Purple Cow\n-Easter\n-Papermint\n-Christmas\n-Old Man\n-Old Mother\n-Hot cross\n-Zoo\n-Diamonds\n-Little Girl\n-Zoom Zoom Rhyme\n-Chubby Cheeks\n-The Lion And The Unicorn\n-Clap Your Hands\n-Buckle My Shoe\n-Once I Caught A Fish Alive\n-Ding Dong\n-Tommy Tucker\n-Star Light Star Bright\n-Tisket Tasket\n-Wise Old Owl\n-A Rose\n-Action\n-After a Bath\n-All the little fishes\n-An Elephant\n-Are You Sleeping\n-Birds\n-Paper\n-Animal Sounds\n-Butterfly\n-Johny\n-I Am Big Tree\n-I Am Big Tree\n-Hickory Dickory\n-Good Morning\n-Good Afternoon\n-Evening Red\n-Early To Bed and Early To Rise\n-Donkey\n-Charley",
+          "largeIconUri": "file://assets/images/en-AU_largeIconUri.png"
+        },
+        "en-GB": {
+          "summary": "playing  rhymes.",
+          "examplePhrases": [
+            "Alexa start rhyme tunes",
+            "play twinkle twinkle rhyme"
+          ],
+          "keywords": [
+            "Rhyme",
+            "Tunes",
+            "game",
+            "poem",
+            "poem",
+            "game",
+            "rhymes",
+            "rhyme",
+            "game",
+            "grammar",
+            "rhymes",
+            "Tunes",
+            "skill",
+            "skills",
+            "knowledge",
+            "learning",
+            "skill"
+          ],
+          "name": "Rhyme Tunes",
+          "description": "Rhymes Zone is an Alexa skill which is created for user to learn and understand the rhymes line by line. In line with our aim to expose user to various poems or rhymes we had made in this skill. In this project we have set total 50 number of rhymes set. In which when a user will say first line of poem then Alexa will say second line of poem and this happens one by one until the poem ends. If the user does mistakes while saying the rhyme then the Alexa will tell the user that the line said by you is wrong and also it will correct the line of the rhyme. It is very good skill for the user because in this skill we have added so many poems that the user will feel interesting while learning the poems and they will have fun while learning .If a user want to listen rhyme then invoke Alexa by saying rhyme tunes then Alexa will ask that which rhyme do you want to sing or play, and then Alexa will tell the first line of the rhyme and user should say the next line of the rhyme. If you want to understand more about the game just say \"help\" after waking up the skill name. Enjoy the game...",
+          "smallIconUri": "file://assets/images/en-GB_smallIconUri.png",
+          "updatesDescription": "The Rhymes we have:-\n-Twinkle Twinkle\n-Humpty Dumpty\n-Black Sheep\n-Little Teapot\n-Diddle Diddle\n-Incy Wincy Spider\n-Jack and Jill\n-Teddy Bea\n-ringa ringa\n-Dear Mother\n-Purple Cow\n-Easter\n-Papermint\n-Christmas\n-Old Man\n-Old Mother\n-Hot cross\n-Zoo\n-Diamonds\n-Little Girl\n-Zoom Zoom Rhyme\n-Chubby Cheeks\n-The Lion And The Unicorn\n-Clap Your Hands\n-Buckle My Shoe\n-Once I Caught A Fish Alive\n-Ding Dong\n-Tommy Tucker\n-Star Light Star Bright\n-Tisket Tasket\n-Wise Old Owl\n-A Rose\n-Action\n-After a Bath\n-All the little fishes\n-An Elephant\n-Are You Sleeping\n-Birds\n-Paper\n-Animal Sounds\n-Butterfly\n-Johny\n-I Am Big Tree\n-I Am Big Tree\n-Hickory Dickory\n-Good Morning\n-Good Afternoon\n-Evening Red\n-Early To Bed and Early To Rise\n-Donkey\n-Charley",
+          "largeIconUri": "file://assets/images/en-GB_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "start rhyme tunes\nplay twinkle twinkle rhyme\nstart johny johny rhyme",
+      "category": "MEMORY_GAMES",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": [
+        "AU",
+        "CA",
+        "IN",
+        "GB",
+        "US",
+        "AE",
+        "CH",
+        "SA",
+        "NZ"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:651618551500:function:20794304-894d-476d-ad00-2386c5536208:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:651618551500:function:20794304-894d-476d-ad00-2386c5536208:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:651618551500:function:20794304-894d-476d-ad00-2386c5536208:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:651618551500:function:20794304-894d-476d-ad00-2386c5536208:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {
+          "termsOfUseUrl": "https://blueplanetinfosolutions.com/about-us/",
+          "privacyPolicyUrl": "https://blueplanetinfosolutions.com/about-us/"
+        },
+        "en-CA": {
+          "termsOfUseUrl": "https://blueplanetinfosolutions.com/about-us/",
+          "privacyPolicyUrl": "https://blueplanetinfosolutions.com/about-us/"
+        },
+        "en-IN": {
+          "termsOfUseUrl": "https://blueplanetinfosolutions.com/about-us/",
+          "privacyPolicyUrl": "https://blueplanetinfosolutions.com/about-us/"
+        },
+        "en-AU": {
+          "termsOfUseUrl": "https://blueplanetinfosolutions.com/about-us/",
+          "privacyPolicyUrl": "https://blueplanetinfosolutions.com/about-us/"
+        },
+        "en-GB": {
+          "termsOfUseUrl": "https://blueplanetinfosolutions.com/about-us/",
+          "privacyPolicyUrl": "https://blueplanetinfosolutions.com/about-us/"
+        }
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

@@ -1,0 +1,1979 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "rhyme tunes",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "rhymeintent",
+          "slots": [
+            {
+              "name": "rhyme_name",
+              "type": "rhymename"
+            }
+          ],
+          "samples": [
+            "play {rhyme_name}",
+            "play the {rhyme_name}",
+            "start the {rhyme_name}",
+            "start {rhyme_name}",
+            "{rhyme_name}"
+          ]
+        },
+        {
+          "name": "lyricsintent",
+          "slots": [
+            {
+              "name": "rhyme_lyrics",
+              "type": "rhymelyrics"
+            }
+          ],
+          "samples": [
+            "upcoming line is {rhyme_lyrics}",
+            "next {rhyme_lyrics}",
+            "next is {rhyme_lyrics}",
+            "next line is {rhyme_lyrics}",
+            "{rhyme_lyrics}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "i dont know",
+                "synonyms": [
+                  "i dont know the next line",
+                  "dont know the next line",
+                  "i don\u0027t know"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "zoom zoom zoom"
+              }
+            },
+            {
+              "name": {
+                "value": "cocks crow in the morning"
+              }
+            },
+            {
+              "name": {
+                "value": "johny johny"
+              }
+            },
+            {
+              "name": {
+                "value": "i give shade to birds and you"
+              }
+            },
+            {
+              "name": {
+                "value": "and these are my fruits"
+              }
+            },
+            {
+              "name": {
+                "value": "these are my flowers"
+              }
+            },
+            {
+              "name": {
+                "value": "and these are my leaves"
+              }
+            },
+            {
+              "name": {
+                "value": "these are my branches"
+              }
+            },
+            {
+              "name": {
+                "value": "i am big tree la la la la"
+              }
+            },
+            {
+              "name": {
+                "value": "the mouse ran down"
+              }
+            },
+            {
+              "name": {
+                "value": "the clock struck one"
+              }
+            },
+            {
+              "name": {
+                "value": "the mouse ran up the clock"
+              }
+            },
+            {
+              "name": {
+                "value": "hickory dickory dock"
+              }
+            },
+            {
+              "name": {
+                "value": "say good night good night in the night"
+              }
+            },
+            {
+              "name": {
+                "value": "say good evening good evening in the evening"
+              }
+            },
+            {
+              "name": {
+                "value": "say good afternoon good afternoon in the afternoon"
+              }
+            },
+            {
+              "name": {
+                "value": "say good morning good morning in the morning"
+              }
+            },
+            {
+              "name": {
+                "value": "i hope you are too"
+              }
+            },
+            {
+              "name": {
+                "value": "i am very well"
+              }
+            },
+            {
+              "name": {
+                "value": "oh how do you do"
+              }
+            },
+            {
+              "name": {
+                "value": "good afternoon good afternoon"
+              }
+            },
+            {
+              "name": {
+                "value": "bring the rain upon his head"
+              }
+            },
+            {
+              "name": {
+                "value": "evening grey and morning red"
+              }
+            },
+            {
+              "name": {
+                "value": "set the traveller on his way"
+              }
+            },
+            {
+              "name": {
+                "value": "evening red and morning grey"
+              }
+            },
+            {
+              "name": {
+                "value": "and wealthy and wise"
+              }
+            },
+            {
+              "name": {
+                "value": "is the way to be healthy"
+              }
+            },
+            {
+              "name": {
+                "value": "and early to rise"
+              }
+            },
+            {
+              "name": {
+                "value": "for early to bed"
+              }
+            },
+            {
+              "name": {
+                "value": "will never be wise"
+              }
+            },
+            {
+              "name": {
+                "value": "and he who wakes late"
+              }
+            },
+            {
+              "name": {
+                "value": "to tell us to rise"
+              }
+            },
+            {
+              "name": {
+                "value": "cocks crow in the morn"
+              }
+            },
+            {
+              "name": {
+                "value": "this sleepy morn"
+              }
+            },
+            {
+              "name": {
+                "value": "to wake the world"
+              }
+            },
+            {
+              "name": {
+                "value": "and blow your horn"
+              }
+            },
+            {
+              "name": {
+                "value": "lift your ears"
+              }
+            },
+            {
+              "name": {
+                "value": "and gently bray"
+              }
+            },
+            {
+              "name": {
+                "value": "old and grey"
+              }
+            },
+            {
+              "name": {
+                "value": "donkey donkey"
+              }
+            },
+            {
+              "name": {
+                "value": "which made poor charley hop"
+              }
+            },
+            {
+              "name": {
+                "value": "and gave him a clout"
+              }
+            },
+            {
+              "name": {
+                "value": "the baker come out"
+              }
+            },
+            {
+              "name": {
+                "value": "out of the bakers shop"
+              }
+            },
+            {
+              "name": {
+                "value": "stole the barley"
+              }
+            },
+            {
+              "name": {
+                "value": "charley charley"
+              }
+            },
+            {
+              "name": {
+                "value": "butterfly butterfly say goodbye"
+              }
+            },
+            {
+              "name": {
+                "value": "butterfly butterfly reach the sky"
+              }
+            },
+            {
+              "name": {
+                "value": "butterfly land on me"
+              }
+            },
+            {
+              "name": {
+                "value": "butterfly butterfly fly so free"
+              }
+            },
+            {
+              "name": {
+                "value": "butterfly butterfly touch the ground"
+              }
+            },
+            {
+              "name": {
+                "value": "butterfly butterfly flutter around"
+              }
+            },
+            {
+              "name": {
+                "value": "and squeak goes the rat"
+              }
+            },
+            {
+              "name": {
+                "value": "tick tick says the watch"
+              }
+            },
+            {
+              "name": {
+                "value": "wee wee says the little pig"
+              }
+            },
+            {
+              "name": {
+                "value": "grunt grunt goes the hog"
+              }
+            },
+            {
+              "name": {
+                "value": "chirp chirp say a sparrow"
+              }
+            },
+            {
+              "name": {
+                "value": "baa baa says the sheep"
+              }
+            },
+            {
+              "name": {
+                "value": "mew mew says the cat"
+              }
+            },
+            {
+              "name": {
+                "value": "bow wow says the dog"
+              }
+            },
+            {
+              "name": {
+                "value": "pick them up"
+              }
+            },
+            {
+              "name": {
+                "value": "make the place untidy"
+              }
+            },
+            {
+              "name": {
+                "value": "lying on the floor"
+              }
+            },
+            {
+              "name": {
+                "value": "bits of paper"
+              }
+            },
+            {
+              "name": {
+                "value": "and so shall i have mine"
+              }
+            },
+            {
+              "name": {
+                "value": "rats and mice shall have their choices"
+              }
+            },
+            {
+              "name": {
+                "value": "and so will pigs and swine"
+              }
+            },
+            {
+              "name": {
+                "value": "birds of a feather flock together"
+              }
+            },
+            {
+              "name": {
+                "value": "morning belles are ringing"
+              }
+            },
+            {
+              "name": {
+                "value": "brother john"
+              }
+            },
+            {
+              "name": {
+                "value": "it helps to carry wood"
+              }
+            },
+            {
+              "name": {
+                "value": "it is an herbivore"
+              }
+            },
+            {
+              "name": {
+                "value": "it is black in colour"
+              }
+            },
+            {
+              "name": {
+                "value": "it has two tusks and a trunk"
+              }
+            },
+            {
+              "name": {
+                "value": "it lives in the forest"
+              }
+            },
+            {
+              "name": {
+                "value": "elephant is the biggest land animal"
+              }
+            },
+            {
+              "name": {
+                "value": "splish splish splish splish splash"
+              }
+            },
+            {
+              "name": {
+                "value": "swimming in the water"
+              }
+            },
+            {
+              "name": {
+                "value": "all the little fishes are swimming in the water"
+              }
+            },
+            {
+              "name": {
+                "value": "and two wet legs and a shiny nose"
+              }
+            },
+            {
+              "name": {
+                "value": "hands to wipe and fingers and toes"
+              }
+            },
+            {
+              "name": {
+                "value": "to wipe myself till I am dry dry dry"
+              }
+            },
+            {
+              "name": {
+                "value": "after a bath i try try try"
+              }
+            },
+            {
+              "name": {
+                "value": "in your bed"
+              }
+            },
+            {
+              "name": {
+                "value": "yawn a little sleep a little"
+              }
+            },
+            {
+              "name": {
+                "value": "nod your head"
+              }
+            },
+            {
+              "name": {
+                "value": "bend a little stretch a little"
+              }
+            },
+            {
+              "name": {
+                "value": "top one knee"
+              }
+            },
+            {
+              "name": {
+                "value": "run a little skip a little"
+              }
+            },
+            {
+              "name": {
+                "value": "one two three"
+              }
+            },
+            {
+              "name": {
+                "value": "hop a little jump a little"
+              }
+            },
+            {
+              "name": {
+                "value": "clouds are violet"
+              }
+            },
+            {
+              "name": {
+                "value": "the grass is green"
+              }
+            },
+            {
+              "name": {
+                "value": "pears are yellow"
+              }
+            },
+            {
+              "name": {
+                "value": "a swan is white"
+              }
+            },
+            {
+              "name": {
+                "value": "the sky is blue"
+              }
+            },
+            {
+              "name": {
+                "value": "a poppy is red"
+              }
+            },
+            {
+              "name": {
+                "value": "a rose is pink"
+              }
+            },
+            {
+              "name": {
+                "value": "why cant we all be like that wise old bird"
+              }
+            },
+            {
+              "name": {
+                "value": "the less he spoke the more he heard"
+              }
+            },
+            {
+              "name": {
+                "value": "the more he saw the less he spoke"
+              }
+            },
+            {
+              "name": {
+                "value": "a wise old owl lived in an oak"
+              }
+            },
+            {
+              "name": {
+                "value": "and put it in his pocket"
+              }
+            },
+            {
+              "name": {
+                "value": "a little boy he picked it up"
+              }
+            },
+            {
+              "name": {
+                "value": "i dropped it i dropped it"
+              }
+            },
+            {
+              "name": {
+                "value": "and on the way i dropped it"
+              }
+            },
+            {
+              "name": {
+                "value": "i wrote a letter to my love"
+              }
+            },
+            {
+              "name": {
+                "value": "a green and yellow basket"
+              }
+            },
+            {
+              "name": {
+                "value": "a tisket a tasket"
+              }
+            },
+            {
+              "name": {
+                "value": "have this wish i wish tonight"
+              }
+            },
+            {
+              "name": {
+                "value": "i wish i may i wish i might"
+              }
+            },
+            {
+              "name": {
+                "value": "first star i see tonight"
+              }
+            },
+            {
+              "name": {
+                "value": "the star light star bright"
+              }
+            },
+            {
+              "name": {
+                "value": "without a wife"
+              }
+            },
+            {
+              "name": {
+                "value": "how will he be married"
+              }
+            },
+            {
+              "name": {
+                "value": "without a knife"
+              }
+            },
+            {
+              "name": {
+                "value": "how shall he cut it"
+              }
+            },
+            {
+              "name": {
+                "value": "brown bread and butter"
+              }
+            },
+            {
+              "name": {
+                "value": "what shall we give him"
+              }
+            },
+            {
+              "name": {
+                "value": "sings for his supper"
+              }
+            },
+            {
+              "name": {
+                "value": "the little tommy tucker"
+              }
+            },
+            {
+              "name": {
+                "value": "tried to drown the poor cat"
+              }
+            },
+            {
+              "name": {
+                "value": "what a naughty boy was that"
+              }
+            },
+            {
+              "name": {
+                "value": "little tommy stout"
+              }
+            },
+            {
+              "name": {
+                "value": "who pulled her out"
+              }
+            },
+            {
+              "name": {
+                "value": "little johnny green"
+              }
+            },
+            {
+              "name": {
+                "value": "who put her in"
+              }
+            },
+            {
+              "name": {
+                "value": "pussy is in the well"
+              }
+            },
+            {
+              "name": {
+                "value": "ding dong bell"
+              }
+            },
+            {
+              "name": {
+                "value": "nine ten a big fat hen"
+              }
+            },
+            {
+              "name": {
+                "value": "seven eight lay them straight"
+              }
+            },
+            {
+              "name": {
+                "value": "five six pick up the sticks"
+              }
+            },
+            {
+              "name": {
+                "value": "three four open the door"
+              }
+            },
+            {
+              "name": {
+                "value": "one two buckle my shoe"
+              }
+            },
+            {
+              "name": {
+                "value": "pat them just like me"
+              }
+            },
+            {
+              "name": {
+                "value": "this little finger on my right"
+              }
+            },
+            {
+              "name": {
+                "value": "which finger did it bite"
+              }
+            },
+            {
+              "name": {
+                "value": "because it bit my finger so"
+              }
+            },
+            {
+              "name": {
+                "value": "why did you let it go"
+              }
+            },
+            {
+              "name": {
+                "value": "then I let it go again"
+              }
+            },
+            {
+              "name": {
+                "value": "six seven eight nine ten"
+              }
+            },
+            {
+              "name": {
+                "value": "one two three four five"
+              }
+            },
+            {
+              "name": {
+                "value": "pat your knees pat your knees"
+              }
+            },
+            {
+              "name": {
+                "value": "jump up high just like me"
+              }
+            },
+            {
+              "name": {
+                "value": "jump up high jump up high"
+              }
+            },
+            {
+              "name": {
+                "value": "stomp them just like me"
+              }
+            },
+            {
+              "name": {
+                "value": "stomp your feet stomp your feet"
+              }
+            },
+            {
+              "name": {
+                "value": "clap them just like me"
+              }
+            },
+            {
+              "name": {
+                "value": "clap your hands clap your hands"
+              }
+            },
+            {
+              "name": {
+                "value": "and drummed them out of town"
+              }
+            },
+            {
+              "name": {
+                "value": "some gave them plum cake"
+              }
+            },
+            {
+              "name": {
+                "value": "and some gave them brown"
+              }
+            },
+            {
+              "name": {
+                "value": "some gave them white bread"
+              }
+            },
+            {
+              "name": {
+                "value": "all around the town"
+              }
+            },
+            {
+              "name": {
+                "value": "the lion beat the unicorn"
+              }
+            },
+            {
+              "name": {
+                "value": "were fighting for the crown"
+              }
+            },
+            {
+              "name": {
+                "value": "yes yes yes"
+              }
+            },
+            {
+              "name": {
+                "value": "teachers pet is that you"
+              }
+            },
+            {
+              "name": {
+                "value": "eyes are blue lovely too"
+              }
+            },
+            {
+              "name": {
+                "value": "curly hair very fair"
+              }
+            },
+            {
+              "name": {
+                "value": "rosy lips teeth within"
+              }
+            },
+            {
+              "name": {
+                "value": "chubby cheeks dimple chin"
+              }
+            },
+            {
+              "name": {
+                "value": "five four three two one blast off"
+              }
+            },
+            {
+              "name": {
+                "value": "climb aboard my rocket ship"
+              }
+            },
+            {
+              "name": {
+                "value": "if you want to take a trip"
+              }
+            },
+            {
+              "name": {
+                "value": "we will be there very soon"
+              }
+            },
+            {
+              "name": {
+                "value": "we are going to the moon"
+              }
+            },
+            {
+              "name": {
+                "value": "she gave me a diamond as big as my shoe"
+              }
+            },
+            {
+              "name": {
+                "value": "little girl little girl what gave she you"
+              }
+            },
+            {
+              "name": {
+                "value": "gathering roses to give to the queen"
+              }
+            },
+            {
+              "name": {
+                "value": "little girl little girl where have you been"
+              }
+            },
+            {
+              "name": {
+                "value": "and stole them all away"
+              }
+            },
+            {
+              "name": {
+                "value": "a million little sunbeams came"
+              }
+            },
+            {
+              "name": {
+                "value": "to catch the diamonds guy"
+              }
+            },
+            {
+              "name": {
+                "value": "but while they held their hands outstretched"
+              }
+            },
+            {
+              "name": {
+                "value": "a jewel if you please"
+              }
+            },
+            {
+              "name": {
+                "value": "and all the little children cried"
+              }
+            },
+            {
+              "name": {
+                "value": "twinkled on the trees"
+              }
+            },
+            {
+              "name": {
+                "value": "a million little diamonds"
+              }
+            },
+            {
+              "name": {
+                "value": "then I saw the monkeys mercy how unpleasantly they smelt"
+              }
+            },
+            {
+              "name": {
+                "value": "then I saw the elephant a waving of his trunk"
+              }
+            },
+            {
+              "name": {
+                "value": "then I saw the wombat waddle in the straw"
+              }
+            },
+            {
+              "name": {
+                "value": "then I saw the grey wolf with mutton in his maw"
+              }
+            },
+            {
+              "name": {
+                "value": "then I saw the camel with a hump upon his back"
+              }
+            },
+            {
+              "name": {
+                "value": "first I saw the white bear then I saw the black"
+              }
+            },
+            {
+              "name": {
+                "value": "at the zoo"
+              }
+            },
+            {
+              "name": {
+                "value": "and so the poor dog had none"
+              }
+            },
+            {
+              "name": {
+                "value": "the cupboard was bare"
+              }
+            },
+            {
+              "name": {
+                "value": "when she came there"
+              }
+            },
+            {
+              "name": {
+                "value": "to give the poor dog a bone"
+              }
+            },
+            {
+              "name": {
+                "value": "went to the cupboard"
+              }
+            },
+            {
+              "name": {
+                "value": "old mother hubbard"
+              }
+            },
+            {
+              "name": {
+                "value": "have all built their nests in my beard"
+              }
+            },
+            {
+              "name": {
+                "value": "for larks and a wren"
+              }
+            },
+            {
+              "name": {
+                "value": "two owls and a hen"
+              }
+            },
+            {
+              "name": {
+                "value": "who said It is just how i feared"
+              }
+            },
+            {
+              "name": {
+                "value": "there was an old man with a beard"
+              }
+            },
+            {
+              "name": {
+                "value": "if you havent got a penny then god bless you"
+              }
+            },
+            {
+              "name": {
+                "value": "if you havent got a penny a penny will do"
+              }
+            },
+            {
+              "name": {
+                "value": "please to put a penny in the old mans hat"
+              }
+            },
+            {
+              "name": {
+                "value": "christmas is coming the geese are getting fat"
+              }
+            },
+            {
+              "name": {
+                "value": "give them to your sons"
+              }
+            },
+            {
+              "name": {
+                "value": "if you have no daughters"
+              }
+            },
+            {
+              "name": {
+                "value": "one a penny two a penny"
+              }
+            },
+            {
+              "name": {
+                "value": "hot cross buns"
+              }
+            },
+            {
+              "name": {
+                "value": "but now it is in my tummy point to belly"
+              }
+            },
+            {
+              "name": {
+                "value": "it used to be on my christmas tree form tree shape with hands"
+              }
+            },
+            {
+              "name": {
+                "value": "and was it ever yummy lick lips and rub your belly"
+              }
+            },
+            {
+              "name": {
+                "value": "i took a lick of my peppermint stick pretend to lick candy"
+              }
+            },
+            {
+              "name": {
+                "value": "hop around"
+              }
+            },
+            {
+              "name": {
+                "value": "eggs for every girl and boy"
+              }
+            },
+            {
+              "name": {
+                "value": "easter bunny hops with joy"
+              }
+            },
+            {
+              "name": {
+                "value": "clap and cheer"
+              }
+            },
+            {
+              "name": {
+                "value": "bunnies chickies let us cheer"
+              }
+            },
+            {
+              "name": {
+                "value": "easter time at last is here"
+              }
+            },
+            {
+              "name": {
+                "value": "easter is here"
+              }
+            },
+            {
+              "name": {
+                "value": "i would rather see than be one"
+              }
+            },
+            {
+              "name": {
+                "value": "but I can tell you anyhow"
+              }
+            },
+            {
+              "name": {
+                "value": "i never hope to see one"
+              }
+            },
+            {
+              "name": {
+                "value": "i never saw a purple cow"
+              }
+            },
+            {
+              "name": {
+                "value": "your love makes me grow"
+              }
+            },
+            {
+              "name": {
+                "value": "like flowers in a garden"
+              }
+            },
+            {
+              "name": {
+                "value": "i cannot help but show"
+              }
+            },
+            {
+              "name": {
+                "value": "dear mother your love is special"
+              }
+            },
+            {
+              "name": {
+                "value": "we all fall down"
+              }
+            },
+            {
+              "name": {
+                "value": "a tishoo a tishoo"
+              }
+            },
+            {
+              "name": {
+                "value": "a pocketful of posies"
+              }
+            },
+            {
+              "name": {
+                "value": "ringa ringa roses"
+              }
+            },
+            {
+              "name": {
+                "value": "teddy bear teddy bear say good night"
+              }
+            },
+            {
+              "name": {
+                "value": "teddy bear teddy bear turn out the light"
+              }
+            },
+            {
+              "name": {
+                "value": "teddy bear teddy bear touch you toes"
+              }
+            },
+            {
+              "name": {
+                "value": "teddy bear teddy bear bend down low"
+              }
+            },
+            {
+              "name": {
+                "value": "teddy bear teddy bear touch the sky"
+              }
+            },
+            {
+              "name": {
+                "value": "teddy bear teddy bear jump up high"
+              }
+            },
+            {
+              "name": {
+                "value": "teddy bear teddy bear touch the ground"
+              }
+            },
+            {
+              "name": {
+                "value": "teddy bear teddy bear turn around"
+              }
+            },
+            {
+              "name": {
+                "value": "with vinegar and brown paper"
+              }
+            },
+            {
+              "name": {
+                "value": "and went to bed to mend his head"
+              }
+            },
+            {
+              "name": {
+                "value": "as fast as he could caper"
+              }
+            },
+            {
+              "name": {
+                "value": "up Jack got and home did trot"
+              }
+            },
+            {
+              "name": {
+                "value": "and Jill came tumbling after"
+              }
+            },
+            {
+              "name": {
+                "value": "jack fell down and broke his crown"
+              }
+            },
+            {
+              "name": {
+                "value": "to fetch a pail of water"
+              }
+            },
+            {
+              "name": {
+                "value": "jack and jill went up the hill"
+              }
+            },
+            {
+              "name": {
+                "value": "climbed up the spout again"
+              }
+            },
+            {
+              "name": {
+                "value": "and incy wincy spider"
+              }
+            },
+            {
+              "name": {
+                "value": "and dried up all the rain"
+              }
+            },
+            {
+              "name": {
+                "value": "out came the sun shine"
+              }
+            },
+            {
+              "name": {
+                "value": "and washed poor wincy out"
+              }
+            },
+            {
+              "name": {
+                "value": "down came the rain"
+              }
+            },
+            {
+              "name": {
+                "value": "climbed up the water spout"
+              }
+            },
+            {
+              "name": {
+                "value": "and the dish ran away with the spoon"
+              }
+            },
+            {
+              "name": {
+                "value": "the little dog laughed to see such sport"
+              }
+            },
+            {
+              "name": {
+                "value": "the cow jumped over the moon"
+              }
+            },
+            {
+              "name": {
+                "value": "the cat and the fiddle"
+              }
+            },
+            {
+              "name": {
+                "value": "hey diddle diddle"
+              }
+            },
+            {
+              "name": {
+                "value": "ha ha ha",
+                "synonyms": [
+                  "ha-ha ha"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "open your mouth"
+              }
+            },
+            {
+              "name": {
+                "value": "telling lies"
+              }
+            },
+            {
+              "name": {
+                "value": "no papa"
+              }
+            },
+            {
+              "name": {
+                "value": "eating sugar"
+              }
+            },
+            {
+              "name": {
+                "value": "yes papa"
+              }
+            },
+            {
+              "name": {
+                "value": "couldnt put humpty together again"
+              }
+            },
+            {
+              "name": {
+                "value": "all the kings horses and all the kings men"
+              }
+            },
+            {
+              "name": {
+                "value": "humpty dumpty had a great fall"
+              }
+            },
+            {
+              "name": {
+                "value": "humpty dumpty sat on a wall"
+              }
+            },
+            {
+              "name": {
+                "value": "like a diamond in the sky"
+              }
+            },
+            {
+              "name": {
+                "value": "up above the world so high"
+              }
+            },
+            {
+              "name": {
+                "value": "how i wonder what you are"
+              }
+            },
+            {
+              "name": {
+                "value": "twinkle twinkle little star"
+              }
+            },
+            {
+              "name": {
+                "value": "and pour me out"
+              }
+            },
+            {
+              "name": {
+                "value": "tip me over"
+              }
+            },
+            {
+              "name": {
+                "value": "hear me shout"
+              }
+            },
+            {
+              "name": {
+                "value": "when i get all steamed up"
+              }
+            },
+            {
+              "name": {
+                "value": "here is my spout"
+              }
+            },
+            {
+              "name": {
+                "value": "here is my handle"
+              }
+            },
+            {
+              "name": {
+                "value": "short and stout"
+              }
+            },
+            {
+              "name": {
+                "value": "i am a little teapot"
+              }
+            },
+            {
+              "name": {
+                "value": "who lives down the lane"
+              }
+            },
+            {
+              "name": {
+                "value": "and one for the little boy"
+              }
+            },
+            {
+              "name": {
+                "value": "and one for my dame"
+              }
+            },
+            {
+              "name": {
+                "value": "one for my master"
+              }
+            },
+            {
+              "name": {
+                "value": "three bags full"
+              }
+            },
+            {
+              "name": {
+                "value": "yes sir yes sir"
+              }
+            },
+            {
+              "name": {
+                "value": "have you any wool"
+              }
+            },
+            {
+              "name": {
+                "value": "baa baa black sheep"
+              }
+            }
+          ],
+          "name": "rhymelyrics"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "johny",
+                "synonyms": [
+                  "johny rhyme",
+                  "johny johny yes papa rhyme",
+                  "johny johny rhyme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "zoom zoom rhyme",
+                "synonyms": [
+                  "zoom zoom",
+                  "zoom zoom zoom rhyme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "i am big tree",
+                "synonyms": [
+                  "i am big tree rhyme",
+                  "big tree",
+                  "big tree rhyme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "hickory dickory",
+                "synonyms": [
+                  "hickory dickory dock rhyme",
+                  "hickory dickory rhyme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "good morning",
+                "synonyms": [
+                  "morning rhyme",
+                  "good morning rhyme "
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "good afternoon",
+                "synonyms": [
+                  "afternoon rhyme",
+                  "good afternoon rhyme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "evening red",
+                "synonyms": [
+                  "evening rhyme",
+                  "evening red rhyme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "early to bed and early to rise",
+                "synonyms": [
+                  "early to bed and early to rise rhyme",
+                  "early to rise",
+                  "early to bed",
+                  "early to bed rhyme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "donkey",
+                "synonyms": [
+                  "donkey rhyme",
+                  "donkey donkey rhyme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "charley",
+                "synonyms": [
+                  "charley rhyme",
+                  "charley charley rhyme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "butterfly",
+                "synonyms": [
+                  "butterfly butterfly rhyme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "animal sounds ",
+                "synonyms": [
+                  "animal sounds rhyme",
+                  "animal sound "
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "paper",
+                "synonyms": [
+                  "paper rhyme",
+                  "bits of paper rhyme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "birds",
+                "synonyms": [
+                  "birds sounds rhyme",
+                  "birds rhyme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "are you sleeping",
+                "synonyms": [
+                  "are you sleeping rhyme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "an elephant",
+                "synonyms": [
+                  "an elephant rhyme",
+                  "elephant rhyme",
+                  "elephant"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "all the little fishes ",
+                "synonyms": [
+                  "little fishes rhyme",
+                  "little fishes",
+                  "all the little fishes rhyme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "after a bath",
+                "synonyms": [
+                  "after a bath rhyme",
+                  "bath rhyme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "action",
+                "synonyms": [
+                  "action rhyme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "a rose",
+                "synonyms": [
+                  "a rose rhyme",
+                  "rose rhyme",
+                  "rose"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "wise old owl",
+                "synonyms": [
+                  "old owl rhyme",
+                  "old owl",
+                  "owl rhyme",
+                  "wise old owl rhyme",
+                  "a wise old owl"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "tisket tasket",
+                "synonyms": [
+                  "tisket tasket rhyme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "star light star bright",
+                "synonyms": [
+                  "the star light star bright rhyme",
+                  "star light star bright rhyme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "tommy tucker",
+                "synonyms": [
+                  "tommy tucker rhyme",
+                  "little tommy tucker rhyme",
+                  "the little tommy tucker rhyme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "ding dong",
+                "synonyms": [
+                  "ding dong rhyme",
+                  "ding dong bell rhyme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "buckle my shoe",
+                "synonyms": [
+                  "buckle my shoe rhyme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "once i caught a fish alive",
+                "synonyms": [
+                  "once i caught a fish alive rhyme",
+                  "fish rhyme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "clap your hands",
+                "synonyms": [
+                  "clap your hands rhyme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "the lion and the unicorn",
+                "synonyms": [
+                  "the lion and the unicorn rhyme",
+                  "lion and unicorn rhyme",
+                  "lion and unicorn"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "chubby cheeks",
+                "synonyms": [
+                  "dimple chin rhyme",
+                  "chubby cheeks rhyme",
+                  "chubby cheeks dimple chin rhyme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "little girl",
+                "synonyms": [
+                  "little girl rhyme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "diamonds",
+                "synonyms": [
+                  "diamond rhyme",
+                  "diamonds rhyme",
+                  "million little diamonds rhyme",
+                  "a million little diamonds rhyme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "zoo",
+                "synonyms": [
+                  "the zoo rhyme",
+                  "zoo rhyme",
+                  "at the zoo rhyme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "old mother",
+                "synonyms": [
+                  "old mother rhyme",
+                  "old mother hubbard rhyme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "old man",
+                "synonyms": [
+                  "old man rhyme",
+                  "old man with a beard",
+                  "old man with a beard rhyme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "christmas",
+                "synonyms": [
+                  "christmas rhyme",
+                  "christmas is coming rhyme",
+                  "christmas is coming"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "hot cross",
+                "synonyms": [
+                  "hot cross rhyme",
+                  "hot cross buns rhyme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "papermint",
+                "synonyms": [
+                  "my peppermint stick rhyme",
+                  "my peppermint stick",
+                  "papermint rhyme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "easter",
+                "synonyms": [
+                  "easter rhyme",
+                  "easter is here rhyme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "purple cow",
+                "synonyms": [
+                  "purple cow rhyme",
+                  "a purple cow rhyme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "dear mother",
+                "synonyms": [
+                  "dear mother rhyme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "ringa ringa",
+                "synonyms": [
+                  "ringa ringa roses rhyme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "teddy bear",
+                "synonyms": [
+                  "teddy bear rhyme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "jack and jill",
+                "synonyms": [
+                  "jack and jill rhyme",
+                  "jack and jill went up the hill rhyme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "incy wincy spider",
+                "synonyms": [
+                  "incy wincy spider rhyme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "diddle diddle",
+                "synonyms": [
+                  "diddle diddle rhyme",
+                  "hey diddle rhyme",
+                  "hey diddle diddle rhyme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "humpty dumpty",
+                "synonyms": [
+                  "humpty dumpty rhyme",
+                  "humpty dumpty sat on a wall rhyme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "twinkle twinkle",
+                "synonyms": [
+                  "twinkle twinkle rhyme",
+                  "twinkle twinkle little star rhyme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "little teapot",
+                "synonyms": [
+                  "teapot rhyme",
+                  "little teapot rhyme",
+                  "i am a little teapot rhyme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "black sheep",
+                "synonyms": [
+                  "sheep rhyme",
+                  "ba ba black sheep rhyme",
+                  "black sheep rhyme",
+                  "baa baa black sheep rhyme"
+                ]
+              }
+            }
+          ],
+          "name": "rhymename"
+        }
+      ]
+    }
+  },
+  "version": "4"
+}
